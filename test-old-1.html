@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Test</title>
+
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="test.css">
+	<!-- javascript -->
+	<script src="test.js"></script>
+
+	<!-- jquery -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+	<!-- jquery ui -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+</head>
+<body onload="addHandlers()">
+	<p>Sick Buttons</p>
+	<button onclick="test1()">Test 1</button>
+	<button onclick="test2()">Test 2</button>
+	<button onclick="test3()">Test 3</button>
+
+	<p>Drag and Drop Test</p>
+	<div class="paneRow">
+		<div class="pane" id="pane1" droppable="true">
+			<img class="dragImg" id="img01" src="01.png" draggable="true">
+		</div>
+		<div class="pane" id="pane2" droppable="true">
+		</div>
+		<div class="pane" id="pane3" droppable="true">
+	</div>
+</body>
+</html>

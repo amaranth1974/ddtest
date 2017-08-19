@@ -1,0 +1,31 @@
+img {
+	height: 100%;
+	width: 100%;
+}
+
+.droppableFrame {
+	float: left;
+	height: 100px;
+	width: 100px;
+	margin: 10px;
+	border: 2px solid black;
+}
+
+.frameContainer {
+	height: 200px;
+	width: 80%;
+}
+
+.testContainer {
+	height: 200px;
+	width: 400px;
+	border: 2px solid black;
+}
+
+.draggableImage {
+}
+
+.over {
+	border: 2px dashed black;
+}
+

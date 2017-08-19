@@ -1,0 +1,11 @@
+.imgPane {
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	border: 2px solid black;
+}
+
+.imgPane.over {
+	border: 2px dashed black;
+}
